@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "revenue": 317507.0,
+    "cost": 700.0000000000259,
+    "recovered": 113,
+    "optouts": 40,
+    "touches": 2000,
+    "at_risk": 1947342.0,
+    "escalations": 0,
+    "n_events": 750,
+    "recovery_rate": 0.15066666666666667,
+    "value_recovery_rate": 0.16304634727746847,
+    "net_rupees": 316807.0,
+    "cost_per_recovery": 6.194690265486955,
+    "optout_rate": 0.05333333333333334,
+    "refusals": {}
+  },
+  "agent": {
+    "revenue": 661035.0,
+    "cost": 4048.269999999894,
+    "recovered": 264,
+    "optouts": 28,
+    "touches": 1779,
+    "at_risk": 1947342.0,
+    "escalations": 58,
+    "n_events": 750,
+    "recovery_rate": 0.352,
+    "value_recovery_rate": 0.3394550109842031,
+    "net_rupees": 656986.7300000001,
+    "cost_per_recovery": 15.334356060605659,
+    "optout_rate": 0.037333333333333336,
+    "refusals": {}
+  }
+}

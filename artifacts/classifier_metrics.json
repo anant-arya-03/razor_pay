@@ -1,0 +1,13 @@
+{
+  "rule_lookup": {
+    "accuracy": 0.3987,
+    "macro_f1": 0.2053
+  },
+  "tfidf_lr": {
+    "accuracy": 0.9333,
+    "macro_f1": 0.9194
+  },
+  "macro_f1_lift": 0.7141,
+  "n_train": 2250,
+  "n_test": 750
+}

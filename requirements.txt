@@ -1,0 +1,14 @@
+# Pinned: these exact versions produced the numbers in README.md.
+# The agent arm consumes classifier predictions, so it is the part
+# sensitive to the sklearn version. Verified identical on 1.8.0 too.
+scikit-learn==1.6.0
+pandas==2.2.3
+numpy>=1.26
+joblib>=1.3
+# week 2 additions
+razorpay>=1.4
+fastapi>=0.110
+uvicorn>=0.29
+shap>=0.45
+# only if you fine-tune a transformer (optional, needs GPU)
+# torch, transformers, datasets, accelerate
