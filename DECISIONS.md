@@ -67,7 +67,6 @@ templates otherwise. A reviewer cloning this repo will not have our model
 server running, and a demo that dies on their machine is worth nothing.
 
 ## What we did not build, and why
-
 - **Voice recovery.** Named in the track brief, but roughly a week of work
   adding no evidence the text pipeline does not already provide.
 - **Fine-tuned transformer.** TF-IDF already reaches the practical ceiling
