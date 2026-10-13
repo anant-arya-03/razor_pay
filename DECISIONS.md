@@ -18,7 +18,7 @@ inconsistent offers are a compliance problem, not a UX quirk.
 
 ## 2. Why a trained classifier and not a lookup table
 
-The obvious objection is that `error_code` already tells you the cause. It
+The obvious objection is that `error_code` already tells you the cause. It   
 does not. `BAD_REQUEST_ERROR` covers four of our six causes, so a code-only
 lookup reaches 39.9% accuracy / 0.205 macro-F1 on held out data. The
 distinguishing signal sits in `error_description`, which is free text whose
